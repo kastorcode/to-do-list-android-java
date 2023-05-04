@@ -1,0 +1,31 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="BaseTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorAccent">?attr/colorPrimary</item>
+        <item name="colorControlHighlight">?attr/colorPrimary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:textColorHighlight">?attr/colorPrimary</item>
+    </style>
+
+    <style name="OrangeTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/orange_700</item>
+    </style>
+
+    <style name="PurpleTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="android:statusBarColor" tools:targetApi="21">@color/purple_700</item>
+    </style>
+
+    <style name="NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

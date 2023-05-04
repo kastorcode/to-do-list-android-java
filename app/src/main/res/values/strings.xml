@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ToDo List</string>
+    <string name="about">About</string>
+    <string name="add">Add</string>
+    <string name="close">Close</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="copy">Copy</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="error">Error</string>
+    <string name="errorReadTaskFile">Unable to read task file.</string>
+    <string name="errorSaveData">Unable to save data to memory.</string>
+    <string name="errorTitleEmpty">Title can not be empty.</string>
+    <string name="no">No</string>
+    <string name="orange">Orange</string>
+    <string name="poweredBy">Powered by &lt;kastor.code/&gt;</string>
+    <string name="purple">Purple</string>
+    <string name="success">Success</string>
+    <string name="successAdd">Successfully added.</string>
+    <string name="theme">Theme</string>
+    <string name="title">Title</string>
+    <string name="view">View</string>
+    <string name="wantDelete">Are you sure you want to delete?</string>
+    <string name="yes">Yes</string>
+</resources>
